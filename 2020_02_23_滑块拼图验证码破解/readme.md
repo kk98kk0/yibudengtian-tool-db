@@ -1,3 +1,5 @@
+# a small tool of half month learn for interest
+
 use python3.6.4
 
 a basic utility that can automate slider(from geetest), but speed is a little slow, so there are improvement need to do when i am free
