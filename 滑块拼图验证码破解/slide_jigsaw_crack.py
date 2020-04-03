@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+'''
+Date     : 2018/11/15
+Author   : ybdt
+FileName : slide_jigsaw_crack.py
+'''
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
