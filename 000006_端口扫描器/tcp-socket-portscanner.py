@@ -3,6 +3,7 @@
 import socket
 
 address = 'xxx.xxx.xxx.xxx';
+
 f = open(address + ".txt", "w");
 f.close();
 
