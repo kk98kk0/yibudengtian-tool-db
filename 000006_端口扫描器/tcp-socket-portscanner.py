@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import socket
+import time
 
 address = 'xxx.xxx.xxx.xxx';
 
@@ -26,4 +27,8 @@ def main():
         connect_try(ip, port);
 
 if __name__ == "__main__":
+    start_time = time.time();
     main();
+    stop_time = time.time();
+    used_tiime = start_time - stop_time;
+    print("共耗时" + userd_time + "秒");
