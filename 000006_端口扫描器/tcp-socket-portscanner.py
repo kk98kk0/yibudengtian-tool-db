@@ -27,7 +27,7 @@ def main():
         port = i;
         connect_try(ip, port);
     stop_time = time.time();
-    used_tiime = start_time - stop_time;
+    used_time = start_time - stop_time;
     print("共耗时" + userd_time + "秒");
 
 if __name__ == "__main__":
