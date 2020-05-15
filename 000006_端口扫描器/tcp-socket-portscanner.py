@@ -21,14 +21,14 @@ def connect_try(ip, port):
         print("[*] " + ip + " %d/tcp closed" % port);
 
 def main():
+    start_time = time.time();
     for i in range(1, 65536):
         ip = address;
         port = i;
         connect_try(ip, port);
-
-if __name__ == "__main__":
-    start_time = time.time();
-    main();
     stop_time = time.time();
     used_tiime = start_time - stop_time;
     print("共耗时" + userd_time + "秒");
+
+if __name__ == "__main__":
+    main();
