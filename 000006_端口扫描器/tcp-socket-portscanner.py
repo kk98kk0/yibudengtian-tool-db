@@ -4,6 +4,7 @@ import socket
 
 address = 'xxx.xxx.xxx.xxx';
 
+#即使主机一个端口也没开放，仍会生成被扫描主机的结果文件
 f = open(address + ".txt", "w");
 f.close();
 
